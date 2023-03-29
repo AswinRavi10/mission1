@@ -4,11 +4,11 @@ void main(){
 //       var result=uname=="aswin"&&pass==1234?"success":"invalid user name or pass";
 //
 //       print(result);
-int a=101,
-  b=10,
-  c=50;
+int a=1022,
+  b=1022,
+  c=500;
 
 
-var result=a>b&&b>c&&a>c?(a>b?a:b):(a>c?a:c)
+var result=a>b?(a>c?a:c):(b>c?b:c);
 print(result);
 }
